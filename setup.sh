@@ -2,6 +2,6 @@
 
 echo "setting up neovim..."
 
-ln -s ~/dev/dotfiles/nvim/conf ~/.config/nvim
+ln -s ~/dev/dotfiles/nvim/ ~/.config/
 
 echo "done"
