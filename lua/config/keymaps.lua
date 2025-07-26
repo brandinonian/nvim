@@ -8,4 +8,4 @@ keymap("n", "<leader>pv", vim.cmd.Exp)
 keymap("n", "<leader>c", ":bdelete<CR>", opts)
 
 -- <Esc> to clear search
-keymap("n", "<Esc>", ":nohlsearch<CR>")
+keymap("n", "<leader>/", ":nohlsearch<CR>")

@@ -44,7 +44,7 @@ require("config.keymaps")
 require("config.autocmds")
 
 -- LSP
-vim.lsp.enable({"gopls"})
+vim.lsp.enable({"gopls", "tsserver", "clangd", "luals"})
 
 vim.diagnostic.config({
   virtual_lines = true,
